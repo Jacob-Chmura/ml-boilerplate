@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "A boilerplate repository for spinning up a deep learning Python Project"
 readme = "README.md"
 requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Jacob Chmura", email = "jacobpaul.chmura@gmail.com" },
+]
 dependencies = []
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
