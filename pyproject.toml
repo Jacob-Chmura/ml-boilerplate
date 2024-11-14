@@ -1,0 +1,7 @@
+[project]
+name = "ml-boilerplate"
+version = "0.1.0"
+description = "A boilerplate repository for spinning up a deep learning Python Project"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
