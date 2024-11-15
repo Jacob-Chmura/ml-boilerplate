@@ -20,6 +20,7 @@ def main() -> None:
     print("Checking packages...", end="")
     hello_world()
     hello_numpy()
+    hello_torch()
     print("Ok.")
 
 
