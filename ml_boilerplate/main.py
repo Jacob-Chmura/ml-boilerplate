@@ -9,6 +9,13 @@ def hello_numpy() -> str:
     return "Hello Numpy"
 
 
+def hello_torch() -> str:
+    import torch
+
+    _ = torch.zeros(1337)
+    return "Hello PyTorch"
+
+
 def main() -> None:
     print("Checking packages...", end="")
     hello_world()
