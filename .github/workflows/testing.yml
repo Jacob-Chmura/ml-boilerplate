@@ -1,10 +1,12 @@
-name: Linting
+name: Testing
 
 on: # yamllint disable-line rule:truthy
   push:
     branches:
       - master
   pull_request:
+    branches:
+      - "**"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
