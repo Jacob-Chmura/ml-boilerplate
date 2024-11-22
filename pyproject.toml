@@ -25,13 +25,7 @@ dev = [
     "pytest-cov>=6.0.0",
     "pytest>=8.3.3",
     "ruff>=0.7.3",
-    "yapf>=0.43.0",
 ]
-
-[tool.yapf]
-based_on_style = "pep8"
-split_before_named_assigns = false
-blank_line_before_nested_class_or_def = false
 
 [tool.mypy]
 files = ["ml_boilerplate"]
@@ -49,9 +43,6 @@ disallow_incomplete_defs = true
 multi_line_output = 3
 include_trailing_comma = true
 skip = [".gitignore", "__init__.py"]
-
-[tool.flake8]
-max-line-length = 88
 
 [tool.ruff]
 src = ["ml_boilerplate"]
